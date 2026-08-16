@@ -1,0 +1,672 @@
+<html>
+
+<head>
+    <title>For Carmen ❤️</title>
+	<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+	<style>
+		body{
+				background: radial-gradient(circle, #24152b 0%, #09070b 55%, #000000 100%);
+				color: white;
+				text-align: center;
+				
+			}
+			h1 {font-size: 80px;
+				font-family: Georgia, serif;
+				color: #ffffff;
+				text-shadow: 0 0 20px #9f6cad;
+				}
+			button {background-color: #24172a;
+					color: white;
+					border: 1px solid #9f6cad;
+					padding: 15px 30px;
+					border-radius: 30px;
+					font-size: 16px;
+					}
+			button:hover {background-color: #5a2f65;
+						  cursor: pointer;
+						}
+			.small-title {font-size: 12px;
+						  letter-spacing: 5px;
+						  color: #b995c4;
+						 }
+			.subtitle {font-family: Georgia, serif;
+						font-size: 25px;
+						color: #d8a7e5;
+						margin-top: -25px;
+						}
+			section {height: 100vh;
+					box-sizing: border-box;
+					 padding: 100px 30px;
+					 text-align: center;
+					 display: flex;
+					 flex-direction: column;
+					 justify-content: center;
+					 align-items: center;
+					}
+
+			h2 		{font-family: Georgia, serif;
+					font-size: 60px;
+					}
+
+			.section-text {max-width: 600px;
+					margin: auto;
+					font-size: 20px;
+					line-height: 1.7;
+					color: #cfc4d1;
+							}
+			.hero {min-height: 100vh;
+					display: flex;
+					flex-direction: column;
+					justify-content: center;
+					align-items: center;
+				   }
+			.counter {display: flex;
+						justify-content: center;
+						gap: 50px;
+						margin-top: 50px;
+					  }
+
+			.counter div {display: flex;
+				flex-direction: column;
+						 }
+
+			.counter span {font-family: Georgia, serif;
+				font-size: 60px;
+				color: #d8a7e5;
+			   }
+
+			.counter small {font-size: 11px;
+				letter-spacing: 3px;
+				color: #9e939f;
+							}
+			
+			.clock {margin-top: 40px;
+					font-family: Georgia, serif;
+					font-size: 30px;
+					color: #b995c4;
+					}
+
+			.clock b {margin: 0 8px;
+					  color: #5d4a62;
+					 }
+		
+			.message-box {max-width: 600px;
+						  min-height: 150px;
+						  margin: 40px auto 25px;
+						  padding: 35px;
+    
+						  display: flex;
+						  align-items: center;
+						  justify-content: center;
+    
+						  border: 1px solid #4b3652;
+						  border-radius: 20px;
+						  background-color: #120e14;
+    
+						  font-family: Georgia, serif;
+						  font-size: 24px;
+						  color: #eaddea;
+						  transition: 0.3s;
+						 }
+			#messageCount {font-size: 12px;
+							letter-spacing: 2px;
+							color: #76687a;
+							margin-bottom: 25px;
+						   }
+			.letter {width: min(680px, 90%);
+					 max-height: 55vh;
+					 overflow-y: auto;
+					 box-sizing: border-box;
+					 padding: 40px 45px;
+					 text-align: left;
+					 background-color: #120e14;
+					 border: 1px solid #332638;
+					 border-radius: 20px;
+					 line-height: 1.9;
+					 color: #d8cedb;
+					 box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+					}
+			#serious {display: flex;
+					  flex-direction: column;
+					  justify-content: center;
+					 }
+			.fade-text {opacity: 0;
+						transform: translateY(20px);
+						transition: opacity 1s ease, transform 1s ease;
+						margin-bottom: 35px;
+					   }
+			.fade-text.visible {opacity: 1;
+								transform: translateY(0);
+								}
+			body.locked {overflow: hidden;
+						}
+			.photos {display: flex;
+					justify-content: center;
+					align-items: center;
+					gap: 30px;
+					flex-wrap: wrap;
+					margin-top: 50px;
+					}
+
+			.photos img {width: 280px;
+						height: 350px;
+						object-fit: cover;
+
+						padding: 10px;
+						background: white;
+
+						box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+
+						border-radius: 2px;
+						}
+			.photos img:nth-child(1) {transform: rotate(-3deg);
+									 }
+
+			.photos img:nth-child(2) {transform: rotate(3deg);
+									 }
+			.continue-button {margin-top: 35px;
+							 }
+			.back-button {margin-top: 15px;
+						  background: none;
+						  border: none;
+						  color: #817383;
+						  font-size: 13px;
+						  cursor: pointer;
+						 }
+
+			.back-button:hover {color: #c9a8d1;
+								}
+			.letter p {margin-bottom: 35px;
+					  }
+			.letter::-webkit-scrollbar {width: 6px;
+										}
+
+			.letter::-webkit-scrollbar-thumb {background: #4b3652;
+											border-radius: 10px;
+											}
+			.navigation-buttons {display: flex;
+								 justify-content: center;
+								 align-items: center;
+								 gap: 20px;
+								 margin-top: 35px;
+								}
+			.remember-ending {font-family: Georgia, serif;
+							  font-size: 24px;
+							   text-align: center;
+								color: #e4bde9;
+							  }
+			.fancy-love {font-family: "Great Vibes", cursive;
+						 font-size: 42px;
+						 color: #e4bde9;
+						}
+	</style>
+</head>
+
+<body class="locked">
+	<div>
+	<section id="hero" class="hero">
+		<p class="small-title">FOR THE GIRL I LOVE</p>
+		<h1>Carmen</h1>
+		<p class="subtitle">Happy 1 Month ❤️</p>
+		<p>I made something for you.</p>
+
+		<button onclick="openWebsite()">Open♡♡♡HEHEHE</button>
+	</section>
+	</div>
+
+<section id="remember">
+
+    <p class="small-title">01 · JUST SOME LITTLE THINGS</p>
+
+    <h2>I remember.</h2>
+
+    <p class="section-text">
+       <p class="fade-text">
+    I remember when you were so mean to me when we met 😭😭
+    You bully.
+    <br><br>
+
+    I remember the night you gave me your phone number and
+    I asked you about the MX farewell... hehehe.
+    <br><br>
+
+    I remember those little hints you gave me, saying
+    "I shouldn't flirt with you, cuz I'll fall for you."
+    <br><br>
+
+    Hehehe... look where we are now. ❤️
+</p>
+
+<p class="fade-text remember-ending">
+    But what I really want <u><b>YOU</b></u> to remember is this:
+    <br><br>
+
+    <span class="fancy-love">You are so, so loved.</span>
+    <br><br>
+
+    Especially by me. ❤️
+</p>
+<div class="navigation-buttons">
+<button class="back-button" onclick="goToSection('hero')">
+    ← Back
+</button>
+<button class="continue-button" onclick="goToSection('counter')">
+        Continue →
+    </button>
+	</div>
+    </p>
+
+</section>
+<section id="counter">
+
+    <p class="small-title">02 · OUR TIME TOGETHER</p>
+
+    <h2>I've known you for...</h2>
+
+    <div class="counter">
+
+    <div>
+        <span id="years">0</span>
+        <small>YEARS</small>
+    </div>
+
+    <div>
+        <span id="months">0</span>
+        <small>MONTHS</small>
+    </div>
+
+    <div>
+        <span id="days">0</span>
+        <small>DAYS</small>
+    </div>
+
+</div>
+
+<div class="clock">
+
+    <span id="hours">00</span>
+    <b>:</b>
+    <span id="minutes">00</span>
+    <b>:</b>
+    <span id="seconds">00</span>
+
+</div>
+<div class="navigation-buttons">
+<button class="back-button" onclick="goToSection('remember')">
+    ← Back
+</button>
+<button class="continue-button" onclick="goToSection('game')">
+    Continue →
+</button>
+</div>
+</section>
+<section id="game">
+
+    <p class="small-title">03 · A FEW REMINDERS OF MY LOVE FOR YOU</p>
+
+    <h2>Need a reminder?</h2>
+
+    <p class="section-text">
+        Click the button whenever you want a little reminder
+        of how much I love you.
+    </p>
+
+    <div class="message-box" id="message">
+        Click the button ♡
+    </div>
+	
+	<p id="messageCount">0 / <span id="totalMessages"></span></p>
+
+    <button onclick="newMessage()">Give me one ♡</button>
+	<div class="navigation-buttons">
+	<button class="back-button" onclick="goToSection('counter')">
+    ← Back
+</button>
+	<button class="continue-button" onclick="goToSection('serious')">
+    Continue →
+</button>
+</div>
+</section>
+<section id="serious">
+
+    <p class="small-title">04 · BUT SERIOUSLY</p>
+
+    <h2>I love you.</h2>
+
+<div class="letter">
+
+    <p class="fade-text">
+        Happy one month, my love. ❤️
+        <br><br>
+
+        I honestly don't know how to properly explain how much
+        I love you. Every time I try to put it into words, it
+        feels like I'm leaving something out. Somehow you have became
+        such a massive part of my life in such a short amount
+        of time, and now I can't imagine my days without you. 
+		You mean to much to me to be without you. 
+    </p>
+
+
+    <p class="fade-text">
+        I love you so, so much. Even when we're on call and we're
+        doing homework or something completely ordinary or even just being completely silent, 
+		just knowing you're there makes me happy. I love listening to
+        you ramble while you're studying, even when I have no idea
+        what you're talking about. (looking at that LS work😂)
+        <br><br>
+
+        I don't need us to be doing anything special. Sometimes
+        just having you there is enough to make my day better.
+    </p>
+
+
+    <p class="fade-text">
+        I want you to know that you are my everything.
+        I don't just love having you as my girlfriend right now, but
+        I genuinely want a future with you. ⬅️ (Cuz your going to be my wife hehehe)
+        <br><br>
+
+        I want a little house that's just ours. I want to wake
+        up next to you, see you every day, cuddle with you, annoy
+        you, laugh with you, and just experience a totaly normal, yet SUPER AMAZING life
+        togethere with you. I want to have all those type days with you,
+        because those are the days I'd treasure the most.
+    </p>
+
+
+    <p class="fade-text">
+        You are genuinely so special to me.
+        <br><br>
+
+        I know I tell you that you're beautiful all the time,
+        but my love, you need to understand that I mean it every
+        single time. You are, without a doubt, the most beautiful
+        woman I've ever seen. I look at you sometimes and genuinely
+        wonder how I'm so lucky to have you by my side, when you make me look like a gremlin XD.
+        <br><br>
+
+        No amount of diamonds, gold or silver could come close to
+        how much I value you.
+    </p>
+
+
+    <p class="fade-text">
+        And I love all the little things about you too.
+        I love your facial expressions, even though sometimes
+        I genuinely have no idea what I'm supposed to do or where i stand when
+        you make them. 😂👀
+        <br><br>
+
+        I love your voice. I love your little habits. I love
+        listening to you talk. I love being able to just sit
+        there with you, even if we're both busy doing our own
+        thing. I could sit with you forever and never be bored, you make everything more interesting.
+    </p>
+
+
+    <p class="fade-text">
+        You reassure me more than you probably should😂😅, and
+        that means SO much to me.
+        Thank you for choosing me. Thank you for sticking with me
+        through everything. Thank you for making me feel loved,
+        wanted and special. (and not "on the spectrum spesial" -_- )
+        <br><br>
+
+        I hope I make you feel even half as loved as you make me
+        feel. 💖💕❤️🥰
+    </p>
+
+
+    <p class="fade-text">
+        I love how much you care about me. Even your jealousy
+        sometimes makes me feel special, because I know how much
+        you want me and how much you care about what we have.
+        <br><br>
+
+        And knowing that you see me as your soulmate honestly
+        means more to me than I think I can explain.
+        I don't take that lightly.. bc between your so much in love with me... or your just crazy 😝
+    </p>
+
+
+    <p class="fade-text">
+        You know about the song I really like that has the line
+        <em>"Jy proe soos heuning, en jy voel soos lente."</em>
+        And honestly, I think about you whenever I hear it.
+        The words/lyrics just feels like you to me. ( Tbh, all the songs I listen to... I somehow find you in all of them. lol )
+    </p>
+
+
+    <p class="fade-text">
+        I want to spend as much of my life with you as I possibly
+        can. I want the stupid conversations, the late nights,
+        the cuddles, the arguments we eventually laugh about,
+        the boring days, the exciting days, and everything in
+        between.
+        <br><br>
+
+        I don't just want the perfect moments with you.
+        I want <em>all</em> of the moments.
+    </p>
+
+
+    <p class="fade-text">
+        You are my little princess.
+        <br><br>
+
+        And you will always be my little princess. ❤️
+    </p>
+
+</div>
+<div class="navigation-buttons">
+<button class="back-button" onclick="goToSection('game')">
+    ← Back
+</button>
+<button class="continue-button" onclick="goToSection('photos')">
+    Continue →
+</button>
+</div>
+</section>
+<section id="photos">
+
+    <p class="small-title">05 · US</p>
+
+    <h2>A little piece of us.</h2>
+
+    <div class="photos">
+
+        <img src="f1.jpeg" alt="Us ❤️">
+
+        <img src="f2.jpeg" alt="Us ❤️">
+
+    </div>
+	
+	<p class="final-love">
+        In every lifetime, I would still choose you.
+    </p>
+<button class="back-button" onclick="goToSection('serious')">
+    ← Back
+</button>
+<button class="continue-button" onclick="goToSection('one-month')">
+            Continue →
+        </button>
+</section>
+
+<section id="one-month">
+
+    <p class="small-title">06 · ONE MONTH</p>
+
+    <h2>We made it. ❤️</h2>
+
+    <p class="section-text month-message">
+        We made it through our first month together, love.
+        <br><br>
+
+        I'm so proud of us.
+        <br><br>
+
+        And I'm so incredibly lucky to have you with me.
+        I wouldn't trade what we have for anything.
+    </p>
+
+    <div class="navigation-buttons">
+
+        <button class="back-button" onclick="goToSection('photos')">
+            ← Back
+        </button>
+
+        <button class="continue-button" onclick="goToSection('hero')">
+            Continue →
+        </button>
+
+    </div>
+
+</section>
+
+<script>
+
+	function openWebsite() {
+		document.getElementById("remember").scrollIntoView({
+        behavior: "smooth"});
+		
+		
+		const startDate = new Date("2026-06-23T20:00:00+02:00");
+
+function updateCounter() {
+
+    const now = new Date();
+
+    let years = now.getFullYear() - startDate.getFullYear();
+    let months = now.getMonth() - startDate.getMonth();
+    let days = now.getDate() - startDate.getDate();
+	let hours = now.getHours() - startDate.getHours();
+	let minutes = now.getMinutes() - startDate.getMinutes();
+	let seconds = now.getSeconds() - startDate.getSeconds();
+
+
+
+	if (seconds < 0) {
+		seconds += 60;
+		minutes--;
+	}
+
+	if (minutes < 0) {
+		minutes += 60;
+		hours--;
+	}
+
+	if (hours < 0) {
+		hours += 24;
+		days--;
+	}
+    if (days < 0) {
+        months--;
+        days += new Date(
+            now.getFullYear(),
+            now.getMonth(),
+            0
+        ).getDate();
+    }
+
+    if (months < 0) {
+        years--;
+        months += 12;
+    }
+
+    document.getElementById("years").textContent = years;
+    document.getElementById("months").textContent = months;
+    document.getElementById("days").textContent = days;
+	document.getElementById("hours").textContent =
+    String(hours).padStart(2, "0");
+	document.getElementById("minutes").textContent =
+    String(minutes).padStart(2, "0");
+	document.getElementById("seconds").textContent =
+    String(seconds).padStart(2, "0");
+}
+
+updateCounter();
+
+setInterval(updateCounter, 1000);
+		
+		}
+	const messages = [
+    "I love you SO SO SO SO SO MUCH!! ❤️",
+    "You make my days better by simply being in them.",
+    "I love hearing you laugh, it's the way i know where my home is.",
+    "I'm really lucky to have you, you make me feel like the most spesial guy to be on this earth.",
+    "You are so incredibly special to me, I'll do any thing for you my princess.",
+    "I love being your boyfriend, it makes me giggle everytime thinking I am yours <3.",
+    "I hope you never forget how loved you are, if you ever feel not loved.. you need to msg me, even if we are not good, ill let you know i love you to death.",
+	"You are the most beautiful women that i have laid my eyes upon, thy eyes alone is more addictive to look at than nicotine, lol😝.",
+	"Sometimes I catch myself smiling at my screen because of you. You have way too much power over me. 😭",
+	"You aren't just someone I love. You're someone I want a life with.",
+	"Out of everyone in this world, somehow I found you, and somehow you chose me too. ❤️",
+	"I love that you believe I'm your soulmate. I don't take that lightly at all, because i think you're my souldmate too❤️❤️❤️❤️.",
+	"You don't have to be perfect for me to love you. I love you as you are... but you are already perfect the way you are.. hehehehe",
+	"I could literally spend hours just listening to you talk.",
+	"I want to wake up one day and realise I've spent years loving you.",
+	"You are worth more to me than I could ever put into words.",
+];
+document.getElementById("totalMessages").textContent = messages.length;
+let usedMessages = [];
+function newMessage() {
+
+    if (usedMessages.length === messages.length) {
+        usedMessages = [];
+    }
+
+    let randomNumber;
+
+    do {
+        randomNumber = Math.floor(Math.random() * messages.length);
+    } while (usedMessages.includes(randomNumber));
+
+    usedMessages.push(randomNumber);
+	document.getElementById("messageCount").innerHTML =
+    usedMessages.length + " / " + messages.length;
+
+    const box = document.getElementById("message");
+
+    box.style.opacity = "0";
+
+    setTimeout(function() {
+
+        box.textContent = messages[randomNumber];
+        box.style.opacity = "1";
+
+    }, 200);
+
+}
+const fadeTexts = document.querySelectorAll(".fade-text");
+
+const observer = new IntersectionObserver(function(entries) {
+
+    entries.forEach(function(entry) {
+
+        if (entry.isIntersecting) {
+            entry.target.classList.add("visible");
+        }
+
+    });
+
+});
+fadeTexts.forEach(function(text) {
+    observer.observe(text);
+});
+function goToSection(sectionID) {
+
+    document.getElementById(sectionID).scrollIntoView({
+        behavior: "smooth"
+    });
+
+}
+</script>
+
+</body>
+
+</html>
+
+</body>
+
+</html>
